@@ -5,7 +5,8 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --search-bar-bg: #dad5d559;
   --search-bar-hover: #dad5d5a4;
-  --button-bg: #008cffe7;
+  --button-bg: #008cffe0;
+  --button-hover: #0384eefd;
   --main-bg: #e1f1f5c9;
   --info-font-color: #4e4c4c;
   --sidebar-bg-color: #008cffe7;
@@ -33,6 +34,9 @@ body {
   grid-template-rows: repeat(2, 1fr);
   align-content: center;
   padding: 10px;
+  box-shadow: 1px 5px 13px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 5px 13px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 5px 13px 1px rgba(0, 0, 0, 0.75);
 }
 
 .header > * {
@@ -77,6 +81,10 @@ body {
   background-color: var(--button-bg);
   padding: 5px 25px;
   color: white;
+}
+
+button:hover {
+  background-color: var(--button-hover);
 }
 
 .sidebar {
@@ -147,6 +155,9 @@ body {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 20px 30px;
+  box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
 }
 
 .projects {
